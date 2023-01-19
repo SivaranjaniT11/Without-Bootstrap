@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-fluid{
+    margin: 3% ;
+}
+.box{
+    background:url('image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+input{
+    padding:8px 25px;
+}
+.box-overlay{
+    display: flex;
+    height: 60vh;
+    background:rgba(79, 13, 222, 0.656);
+}
+.form-1{
+    margin-left:4%;
+    margin-top:50px;
+}
+.col-1 input , .col-2 input{
+    width:100%;
+}
+.col-1 , .col-2{  
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.form-2{
+    width:40%;
+    margin-left:200px;
+    background-color: rgb(253, 255, 255);
+    margin-top:-90px;margin-bottom: 20px;
+    box-shadow: 1px 2px 2px 1px rgb(147, 143, 143);
+}
+.form-2 .row{
+    margin-left: 5%;
+}
+.form-2 input, .form-2 .form-check-label {
+    margin-top:5%;
+}
+button{
+    padding: 10px 25px;
+    margin:5%;
+    background-color: rgb(3, 136, 189);
+    border: none;
+    color: beige;
+}
+
+
+@media (max-width:1200px){
+       
+    .box{
+      height: 150vh;
+    }
+     .box-overlay{
+      height: 150vh;
+      display: block;
+     }
+           
+     .form-2{
+      margin-left:20px;
+      margin-top:30px;
+      width:90%;
+      margin-bottom:10px;
+        }
+        .col-1 input ,.col-2 input{
+            width:80%;
+            padding: 10px;
+          }
+        .col-6 input{
+          width:94%;
+          padding: 10px;
+        }
+
+}
+
